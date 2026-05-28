@@ -33,6 +33,7 @@ export B
 
 inherit cmake pkgconfig qemu python3native
 
+COMPATIBLE_MACHINE = "null"
 COMPATIBLE_HOST = '(x86_64).*-linux'
 COMPATIBLE_HOST:libc-musl = "null"
 
