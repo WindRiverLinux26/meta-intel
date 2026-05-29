@@ -25,6 +25,7 @@ RPROVIDES:${PN} = "virtual-opencl-icd"
 
 inherit cmake pkgconfig qemu
 
+COMPATIBLE_MACHINE = "null"
 COMPATIBLE_HOST = '(x86_64).*-linux'
 COMPATIBLE_HOST:libc-musl = "null"
 
