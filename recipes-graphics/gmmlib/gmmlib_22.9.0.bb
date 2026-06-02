@@ -12,6 +12,7 @@ SRC_URI = " \
 
 SRCREV = "76a7aa3165daa393d3ad156a263d13941162afbd"
 
+COMPATIBLE_MACHINE = "null"
 COMPATIBLE_HOST:x86-x32 = "null"
 
 UPSTREAM_CHECK_GITTAGREGEX = "^intel-gmmlib-(?P<pver>(\d+(\.\d+)+))$"
